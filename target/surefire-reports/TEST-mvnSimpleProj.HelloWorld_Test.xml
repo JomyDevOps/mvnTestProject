@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="mvnSimpleProj.HelloWorld_Test" time="0.01" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="mvnSimpleProj.HelloWorld_Test" time="0.037" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
-    <property name="java.vm.version" value="15.0.2+7-27"/>
-    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin"/>
+    <property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\Users\Window10\eclipse-workspace\mvnSimpleProj"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
-    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="path.separator" value=";"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
@@ -17,7 +17,8 @@
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="C:\Users\Window10\eclipse-workspace\mvnSimpleProj"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
-    <property name="java.runtime.version" value="15.0.2+7-27"/>
+    <property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.io.tmpdir" value="C:\Users\Window10\AppData\Local\Temp\"/>
     <property name="line.separator" value="
@@ -25,28 +26,30 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\Window10\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2192651676398830996.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\Window10\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf447132161955838162.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.2\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Jomy/MS DevOps/Softwares/Eclipse EE 64-bit.2020-06-r/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;D:/Jomy/MS DevOps/Softwares/Eclipse EE 64-bit.2020-06-r/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\installations\Git\cmd;D:\installations\Cmder\cmder;C:\Program Files\Java\jdk-15.0.2\bin;C:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\installations\Git\cmd;D:\installations\Cmder\cmder;C:\Program Files\Java\jdk-15.0.2\bin;C:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\Window10\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\nodejs;;D:\Jomy\MS DevOps\Softwares\Eclipse EE 64-bit.2020-06-r\eclipse;;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.10\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:/Jomy/MS DevOps/Softwares/Eclipse EE 64-bit.2020-06-r/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin/server;D:/Jomy/MS DevOps/Softwares/Eclipse EE 64-bit.2020-06-r/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_15.0.1.v20201027-0507/jre/bin;C:\Python39\Scripts\;C:\Python39\;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\installations\Git\cmd;D:\installations\Cmder\cmder;C:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Java\jdk-15.0.2\bin;C:\Program Files\Java\scripts;C:\Program Files\Python36\Scripts\;C:\Program Files\Python36\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\installations\Git\cmd;D:\installations\Cmder\cmder;C:\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\bin;C:\Users\Window10\AppData\Roaming\npm;C:\Program Files\nodejs;C:\Program Files\nodejs;;D:\Jomy\MS DevOps\Softwares\Eclipse EE 64-bit.2020-06-r\eclipse;;."/>
     <property name="jdk.debug" value="release"/>
-    <property name="java.class.version" value="59.0"/>
+    <property name="java.class.version" value="55.0"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="10.0"/>
     <property name="user.home" value="C:\Users\Window10"/>
-    <property name="user.timezone" value="Europe/Dublin"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
     <property name="file.encoding" value="Cp1252"/>
-    <property name="java.specification.version" value="15"/>
+    <property name="java.specification.version" value="11"/>
     <property name="user.name" value="Window10"/>
     <property name="java.class.path" value="D:\Jomy\MS DevOps\Softwares\Eclipse EE 64-bit.2020-06-r\eclipse\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
-    <property name="java.vm.specification.version" value="15"/>
+    <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
-    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.2"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.10"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
-    <property name="java.vm.info" value="mixed mode, sharing"/>
-    <property name="java.version" value="15.0.2"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.10"/>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="maven.home" value="C:\Users\Window10\eclipse-workspace\mvnSimpleProj\EMBEDDED"/>
     <property name="file.separator" value="\"/>
@@ -54,7 +57,9 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="mvnSimpleProj.HelloWorld_Test" name="testMain" time="0.01"/>
+  <testcase classname="mvnSimpleProj.HelloWorld_Test" name="testMain" time="0.037"/>
 </testsuite>
